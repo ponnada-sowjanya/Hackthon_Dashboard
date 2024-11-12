@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Dashboard from './Dashboard';
+import Navbar from './Navbar';
+import FeedbackSubmitted from './FeedbackSubmitted';
+import SlotBooked from './SlotBooked';
+import Feedback from './Feedback';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <SlotBooked/>
   </React.StrictMode>
 );
 

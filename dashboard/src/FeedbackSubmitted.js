@@ -1,7 +1,7 @@
 import React from 'react'
 import Checkmark from "./Checkmark";
 
-const feedbackSubmitted = () => {
+const FeedbackSubmitted = () => {
     return (
         <div>
           <Checkmark
@@ -13,4 +13,4 @@ const feedbackSubmitted = () => {
       );
 }
 
-export default feedbackSubmitted
+export default FeedbackSubmitted

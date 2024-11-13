@@ -8,6 +8,9 @@ import Navbar from './Navbar';
 import FeedbackSubmitted from './FeedbackSubmitted';
 import SlotBooked from './SlotBooked';
 import Feedback from './Feedback';
+import SelectionProcess from './SelectionProcess';
+import MyhackathonSelectionProcess from './MyhackathonSelectionProcess';
+import MyplacementSelectionProcess from './MyplacementSelectionProcess';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

@@ -1,18 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './InterviewTopics.css';
-
+// import './Faqs.css'
 
 const InterviewTopics = () => {
-  const [expanded, setExpanded] = useState(false);
-
-  const toggleExpand = () => {
-    setExpanded(!expanded);
-  };
-
+  
   return (
     <div className="interview-topics">
       <header>
-         <h1>Interview Topics & Questions</h1>
+         <h1><span > <i className='bx bx-chevron-left'/> </span>Interview Topics & Questions</h1>
       </header>
 
       <section className="intro">

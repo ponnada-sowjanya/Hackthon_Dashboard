@@ -5,6 +5,7 @@
     /* margin: 20px auto; */
     padding-left: 130px;
     text-align: left;
+    padding-bottom: 50px;
   }
   
   /* FAQ button styling */
@@ -28,6 +29,11 @@
     border-radius: 8px;
     margin-bottom: 10px;
     background-color: #f8f8f8;
+  }
+  .faq-item:hover {
+    cursor: pointer;
+    background-color: #d9d9d9;
+    transition: 1.3s;
   }
   
   .faq-item h3 {

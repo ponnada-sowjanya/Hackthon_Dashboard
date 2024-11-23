@@ -1,6 +1,7 @@
 import React from 'react';
 import './InterviewTopics.css';
 // import './Faqs.css'
+import FAQs from './FAQs';
 
 const VerbalAbility = () => {
  
@@ -47,6 +48,7 @@ const VerbalAbility = () => {
           <li>Adjectives</li>
         </ul>
       </section>
+      <FAQs/>
     </div>
   );
 };

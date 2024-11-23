@@ -1,5 +1,6 @@
 import React from 'react';
 import './InterviewTopics.css';
+import FAQs from './FAQs'; // Import the FAQs component
 
 const QuantitativeAptitude = () => {
   return (
@@ -41,6 +42,9 @@ const QuantitativeAptitude = () => {
           <li>Probability </li>
         </ul>
       </section>
+
+      {/* Include the FAQs component here */}
+      <FAQs />
     </div>
   );
 };

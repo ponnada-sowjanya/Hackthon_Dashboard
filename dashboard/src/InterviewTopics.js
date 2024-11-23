@@ -1,6 +1,7 @@
 import React from 'react';
 import './InterviewTopics.css';
 // import './Faqs.css'
+import FAQs from './FAQs'; 
 
 const InterviewTopics = () => {
   
@@ -67,6 +68,7 @@ const InterviewTopics = () => {
           <li>What do you know about the industry you are applying for?</li>
         </ul>
       </section>
+      <FAQs/>
     </div>
   );
 };

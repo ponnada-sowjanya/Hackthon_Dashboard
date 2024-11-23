@@ -31,7 +31,6 @@ import 'boxicons/css/boxicons.min.css';
 // import VerbalAbility from './VerbalAbility';
 // import LogicalReasoning from './LogicalReasoning'
 import QuantitativeAptitude from './QuantitativeAptitude'
-import FAQs from './FAQs';
 import VerbalAbility from './VerbalAbility';
 import LogicalReasoning from './LogicalReasoning';
 import InterviewTopics from './InterviewTopics';
@@ -39,11 +38,11 @@ import InterviewTopics from './InterviewTopics';
 function App() {
   return (
     <div className="App">
-      {/* <QuantitativeAptitude /> */}
-      {/* <VerbalAbility /> */}
-      {/* <LogicalReasoning /> */}
+      <QuantitativeAptitude />
+      <VerbalAbility />
+      <LogicalReasoning />
       <InterviewTopics />
-      <FAQs/>
+      
     </div>
   );
 }

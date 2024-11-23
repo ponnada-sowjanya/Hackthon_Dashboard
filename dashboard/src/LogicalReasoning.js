@@ -1,6 +1,7 @@
 import React from 'react';
 import './InterviewTopics.css';
 // import './Faqs.css'
+import FAQs from './FAQs';
 
 const LogicalReasoning = () => {
   
@@ -44,6 +45,7 @@ const LogicalReasoning = () => {
       </ul>
 
       </section>
+      <FAQs/>
     </div>
   );
 };

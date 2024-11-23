@@ -11,11 +11,16 @@ import Feedback from './Feedback';
 import SelectionProcess from './SelectionProcess';
 import MyhackathonSelectionProcess from './MyhackathonSelectionProcess';
 import MyplacementSelectionProcess from './MyplacementSelectionProcess';
+import Workshopfbsubmitted from './Workshopfbsubmitted';
+import Webinarfbsubmitted from './Webinarfbsubmitted';
+import Projectfbsubmitted from './Projectfbsubmitted';
+import Trainingfbsubmitted from './Trainingfbsubmitted';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App/>
+    <Workshopfbsubmitted/>
   </React.StrictMode>
 );
 

@@ -1,0 +1,17 @@
+body{
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #0071D1;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .h2{
+    color: black;
+  }.form-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }

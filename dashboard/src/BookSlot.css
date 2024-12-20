@@ -1,0 +1,48 @@
+#dateForm, #time {
+    border-radius: 20vw;
+   padding:10px;
+   width:50%;
+   border-color: blue;
+}
+.Date{
+    margin:5vw;
+}
+.Time{
+    margin: 5vw;
+}
+.BookSlotContainer{
+   margin-top:20px;
+   margin-left: 20px;
+}
+
+h2{
+    color: blue;
+    margin-left: 80px;
+}
+
+
+input[type="radio"]{
+     border-radius:50%;
+     color: blue;
+     height: 8px;
+}
+
+p{
+    margin-left: 80px;
+}
+button{
+    border-radius: 15px;
+    padding: 20px 40px;
+
+    margin-left: 800px;
+    background-color: rgb(7, 92, 152);
+    color: white;
+}
+h{
+    margin-left: 800px;
+    color: rgb(3, 3, 51);
+}
+.BookSlotContainer{
+    border-radius: 20px; 
+    border: 2px solid blue;
+}

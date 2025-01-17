@@ -9,7 +9,7 @@ const Mentor = () => {
         <h2>Current Mentor</h2>
         <div className="mentor-card">
           <img
-            src="https://via.placeholder.com/100" // Replace with actual image URL
+            src="/trainer image.png" // Replace with actual image URL
             alt="Shantnu Rana"
             className="mentor-image"
           />
@@ -40,21 +40,21 @@ const Mentor = () => {
         <div className="resources-card">
           <div className="resource">
             <img
-              src="https://via.placeholder.com/50" // Replace with actual icon URL
+              src="/j4 1.jpg" // Replace with actual icon URL
               alt="Handbook"
             />
             <p>Hand Book</p>
           </div>
           <div className="resource">
             <img
-              src="https://via.placeholder.com/50" // Replace with actual icon URL
+              src="/j5 1.jpg" // Replace with actual icon URL
               alt="Articles"
             />
             <p>Articles</p>
           </div>
           <div className="resource">
             <img
-              src="https://via.placeholder.com/50" // Replace with actual icon URL
+              src="/Rectangle 191.jpg" // Replace with actual icon URL
               alt="Programmes"
             />
             <p>Programmes</p>
@@ -73,7 +73,7 @@ const Mentor = () => {
         <div className="stories-container">
           <div className="story-card">
             <img
-              src="https://via.placeholder.com/80" // Replace with actual image URL
+              src="/j1 1.jpg" // Replace with actual image URL
               alt="Rahul Singh"
             />
             <h3>Rahul Singh</h3>
@@ -87,7 +87,7 @@ const Mentor = () => {
           </div>
           <div className="story-card">
             <img
-              src="https://via.placeholder.com/80" // Replace with actual image URL
+              src="/j2 1.jpg" // Replace with actual image URL
               alt="Alex Martinez"
             />
             <h3>Alex Martinez</h3>
@@ -100,7 +100,7 @@ const Mentor = () => {
           </div>
           <div className="story-card">
             <img
-              src="https://via.placeholder.com/80" // Replace with actual image URL
+              src="/j3 1.jpg" // Replace with actual image URL
               alt="Emily Carter"
             />
             <h3>Emily Carter</h3>

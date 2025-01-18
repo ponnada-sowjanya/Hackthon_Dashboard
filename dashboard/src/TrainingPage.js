@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./TrainingPage.css";
 
-const TrainingPage = () => {
+const TrainingPage = ({ certificationImg, certificationTitle, trainingTitle }) => {
   const [activeFaq, setActiveFaq] = useState(null);
 
   const toggleFaq = (index) => {
@@ -10,17 +10,13 @@ const TrainingPage = () => {
 
   return (
     <div>
-
       <div className="training">
-       
-          <i className="bx bx-chevron-left"></i>
-      
-        <span style={{fontSize:"35px"}}>Cyber Security</span>
+        <i className="bx bx-chevron-left"></i>
+        <span style={{ fontSize: "35px" }}>{trainingTitle}</span>
       </div>
-
-      <h2 className="section-title">Training Schedule</h2>
+      <h2 className="section-title">{certificationTitle}</h2>
       <p style={{ marginLeft: "2.5vw" }}>
-        <strong>Topic:</strong> Cyber Security
+        <strong>Topic:</strong> {trainingTitle}
       </p>
       <p style={{ marginLeft: "2.6vw" }}>
         <strong>Date:</strong> Wednesday, April 24, 2024
@@ -109,12 +105,9 @@ const TrainingPage = () => {
         </ul>
       </div>
 
-      <h2 className="section-title">Training Certification</h2>
-      <img
-        src="/hackathon certificate.svg"
-        alt="Certificate"
-        className="certificate-img"
-      />
+      <h2 className="section-title">Training Schedule</h2>
+
+      <img src={certificationImg} alt="Certificate" className="certificate-img" />
 
       <h2
         className="register-btn"
